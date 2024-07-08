@@ -1,0 +1,6 @@
+*.csv
+venv/
+__pycache__
+zurich_insitu_plots/
+output/
+deviation_plots/

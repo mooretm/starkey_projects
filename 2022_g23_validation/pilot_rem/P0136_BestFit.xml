@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="audioscan.xsl"?>
+<session SessionID="2" ClientID="session" date="2023-06-23" time="08:10:44">
+    <equipment model="vf2" serial="2124" software="4.28.1" xmlformat="1.5"/>
+    <clientdata>
+        <age unit="months">187</age>
+        <fittingrule>NAL-NL2</fittingrule>
+        <binauralfitting>yes</binauralfitting>
+        <languagetype>nontonal</languagetype>
+        <instrument ear="left">
+            <formfactor>RITE</formfactor>
+            <devicetype>AcousticHearingAid</devicetype>
+            <venttype>None</venttype>
+        </instrument>
+        <tonethresholdaudiogram ear="left">
+            <measurementconditions>
+                <transducer>Insert_Generic</transducer>
+                <units>HL</units>
+            </measurementconditions>
+            <tonepoint>
+                <frequency>250</frequency>
+                <value>15.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>500</frequency>
+                <value>35.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>750</frequency>
+                <value>40.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>1000</frequency>
+                <value>45.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>1500</frequency>
+                <value>45.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>2000</frequency>
+                <value>50.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>3000</frequency>
+                <value>50.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>4000</frequency>
+                <value>50.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>6000</frequency>
+                <value>65.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>8000</frequency>
+                <value>65.0</value>
+                <status>Normal</status>
+            </tonepoint>
+        </tonethresholdaudiogram>
+        <instrument ear="right">
+            <formfactor>RITE</formfactor>
+            <devicetype>AcousticHearingAid</devicetype>
+            <venttype>None</venttype>
+        </instrument>
+        <tonethresholdaudiogram ear="right">
+            <measurementconditions>
+                <transducer>Insert_Generic</transducer>
+                <units>HL</units>
+            </measurementconditions>
+            <tonepoint>
+                <frequency>250</frequency>
+                <value>20.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>500</frequency>
+                <value>35.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>750</frequency>
+                <value>45.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>1000</frequency>
+                <value>45.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>1500</frequency>
+                <value>50.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>2000</frequency>
+                <value>50.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>3000</frequency>
+                <value>50.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>4000</frequency>
+                <value>50.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>6000</frequency>
+                <value>55.0</value>
+                <status>Normal</status>
+            </tonepoint>
+            <tonepoint>
+                <frequency>8000</frequency>
+                <value>60.0</value>
+                <status>Normal</status>
+            </tonepoint>
+        </tonethresholdaudiogram>
+    </clientdata>
+    <test name="frequencies">
+        <data name="audiometric" xunit="Hz" xscale="audio">250.0 500.0 750.0 1000.0 1500.0 2000.0 3000.0 4000.0 6000.0 8000.0 10000.0 12500.0</data>
+        <data name="3rds" xunit="Hz" xscale="3rd">200.0 250.0 315.0 400.0 500.0 630.0 800.0 1000.0 1250.0 1600.0 2000.0 2500.0 3150.0 4000.0 5000.0 6300.0 8000.0 10000.0 12500.0 16000.0</data>
+        <data name="12ths" xunit="Hz" xscale="12th">200.0 210.0 225.0 235.0 250.0 265.0 280.0 300.0 315.0 335.0 355.0 375.0 400.0 420.0 450.0 470.0 500.0 530.0 560.0 595.0 630.0 670.0 710.0 750.0 800.0 840.0 900.0 945.0 1000.0 1060.0 1120.0 1190.0 1250.0 1335.0 1400.0 1500.0 1600.0 1680.0 1800.0 1890.0 2000.0 2120.0 2240.0 2380.0 2500.0 2670.0 2800.0 3000.0 3150.0 3365.0 3550.0 3775.0 4000.0 4240.0 4500.0 4760.0 5000.0 5340.0 5600.0 6000.0 6300.0 6725.0 7100.0 7550.0 8000.0 8500.0 9000.0 9500.0 10000.0 10600.0 11200.0 11800.0 12500.0</data>
+    </test>
+    <test name="calcLTASSa"/>
+    <test name="calcOSPL90"/>
+    <test name="dslStimuli" side="left"/>
+    <test name="dslStimuli" side="right"/>
+    <test name="vocalEffort"/>
+    <test name="telephone"/>
+    <test name="SII"/>
+    <test name="REOG"/>
+    <test name="VentEffect"/>
+    <test name="roomeq"/>
+    <test name="Temp"/>
+    <test name="audiometry" age="adult" method="nal-nl2" binaural="yes" nhlehl="default" languagetargets="nontonal">
+        <data name="tablenhlehl" internal="tablenhlehl">30.0 20.0 17.0 15.0 12.0 10.0 7.0 5.0 5.0 5.0 _ _</data>
+        <data name="defaultnhlehl" internal="defaultnhlehl">30.0 20.0 17.0 15.0 12.0 10.0 7.0 5.0 5.0 5.0 _ _</data>
+        <data name="dslnhlehl" internal="dslnhlehl">30.0 20.0 17.0 15.0 12.0 10.0 7.0 5.0 5.0 5.0 _ _</data>
+    </test>
+    <test name="audiometry" side="left" threshold="entered" bc="na" ucl="average" recd="average" redd="average" reur="average">
+        <data name="thresholdStatus" internal="thresholdStatus">{StimulusFrequency 250 StimulusLevel 15.0 TonePointStatus Normal} {StimulusFrequency 500 StimulusLevel 35.0 TonePointStatus Normal} {StimulusFrequency 750 StimulusLevel 40.0 TonePointStatus Normal} {StimulusFrequency 1000 StimulusLevel 45.0 TonePointStatus Normal} {StimulusFrequency 1500 StimulusLevel 45.0 TonePointStatus Normal} {StimulusFrequency 2000 StimulusLevel 50.0 TonePointStatus Normal} {StimulusFrequency 3000 StimulusLevel 50.0 TonePointStatus Normal} {StimulusFrequency 4000 StimulusLevel 50.0 TonePointStatus Normal} {StimulusFrequency 6000 StimulusLevel 65.0 TonePointStatus Normal} {StimulusFrequency 8000 StimulusLevel 65.0 TonePointStatus Normal} {StimulusFrequency 10000 StimulusLevel {} TonePointStatus {}} {StimulusFrequency 12500 StimulusLevel {} TonePointStatus {}}</data>
+        <data name="pta" yunit="dBhl" xunit="Hz" xscale="audio" internal="PTA">43</data>
+        <data name="4fpta" yunit="dBhl" xunit="Hz" xscale="audio" internal="4FPTA">45</data>
+        <data name="slope" yunit="dBhl" xunit="Hz" xscale="audio" internal="rmseSlope">15</data>
+        <data name="threshold" yunit="dBhl" xunit="Hz" xscale="audio" internal="threshold">15.0 35.0 40.0 45.0 45.0 50.0 50.0 50.0 65.0 65.0 _ _</data>
+        <data name="ha1recd" yunit="dBspl" xunit="Hz" xscale="audio" internal="measRECD1">3.0 4.2 6.5 9.3 9.5 10.4 10.5 15.0 18.5 23.4</data>
+        <data name="ha2ecld" yunit="dBspl" xunit="Hz" xscale="audio" internal="measRECD2">3.1 4.4 6.4 9.4 8.8 7.7 6.0 9.6 11.6 24.1</data>
+        <data name="wrecd" yunit="dBspl" xunit="Hz" xscale="audio" internal="wrecd">-8.5 -8.1 -5.8 -3.2 -3.0 -2.4 -3.1 0.4 3.9 6.6 6.6 6.6</data>
+    </test>
+    <test name="audiometry" side="right" threshold="entered" bc="na" ucl="average" recd="average" redd="average" reur="average">
+        <data name="thresholdStatus" internal="thresholdStatus">{StimulusFrequency 250 StimulusLevel 20.0 TonePointStatus Normal} {StimulusFrequency 500 StimulusLevel 35.0 TonePointStatus Normal} {StimulusFrequency 750 StimulusLevel 45.0 TonePointStatus Normal} {StimulusFrequency 1000 StimulusLevel 45.0 TonePointStatus Normal} {StimulusFrequency 1500 StimulusLevel 50.0 TonePointStatus Normal} {StimulusFrequency 2000 StimulusLevel 50.0 TonePointStatus Normal} {StimulusFrequency 3000 StimulusLevel 50.0 TonePointStatus Normal} {StimulusFrequency 4000 StimulusLevel 50.0 TonePointStatus Normal} {StimulusFrequency 6000 StimulusLevel 55.0 TonePointStatus Normal} {StimulusFrequency 8000 StimulusLevel 60.0 TonePointStatus Normal} {StimulusFrequency 10000 StimulusLevel {} TonePointStatus {}} {StimulusFrequency 12500 StimulusLevel {} TonePointStatus {}}</data>
+        <data name="pta" yunit="dBhl" xunit="Hz" xscale="audio" internal="PTA">43</data>
+        <data name="4fpta" yunit="dBhl" xunit="Hz" xscale="audio" internal="4FPTA">45</data>
+        <data name="slope" yunit="dBhl" xunit="Hz" xscale="audio" internal="rmseSlope">15</data>
+        <data name="threshold" yunit="dBhl" xunit="Hz" xscale="audio" internal="threshold">20.0 35.0 45.0 45.0 50.0 50.0 50.0 50.0 55.0 60.0 _ _</data>
+        <data name="ha1recd" yunit="dBspl" xunit="Hz" xscale="audio" internal="measRECD1">3.0 4.2 6.5 9.3 9.5 10.4 10.5 15.0 18.5 23.4</data>
+        <data name="ha2ecld" yunit="dBspl" xunit="Hz" xscale="audio" internal="measRECD2">3.1 4.4 6.4 9.4 8.8 7.7 6.0 9.6 11.6 24.1</data>
+        <data name="wrecd" yunit="dBspl" xunit="Hz" xscale="audio" internal="wrecd">-8.5 -8.1 -5.8 -3.2 -3.0 -2.4 -3.1 0.4 3.9 6.6 6.6 6.6</data>
+    </test>
+    <test name="recd" side="left" type="ha1recd" earpiece="foamtip" realear_earpiece="foamtip"/>
+    <test name="recd" side="right" type="ha1recd" earpiece="foamtip" realear_earpiece="foamtip"/>
+    <test name="speechmap" transducer="insertfoam" bahdevice="baha5" recdcoupling="foamtip"/>
+    <test name="speechmap" side="left" HI_Type="rite" coupling="custommold" vent_class="occluding" reservegain="10db">
+        <data name="test1_on-ear_meas_sii" internal="map_rear_sii1">18</data>
+        <data name="test2_on-ear_meas_sii" internal="map_rear_sii2">52</data>
+        <data name="test3_on-ear_meas_sii" internal="map_rear_sii3">82</data>
+        <data name="test4_on-ear_meas_sii" internal="map_rear_sii4">79</data>
+        <data name="test1_on-ear_meas_rmse" internal="map_rear_rmse1">9.4</data>
+        <data name="test2_on-ear_meas_rmse" internal="map_rear_rmse2">3.8</data>
+        <data name="test3_on-ear_meas_rmse" internal="map_rear_rmse3">1.1</data>
+        <data name="test1_on-ear" yunit="dBspl" envelope="peaks" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl1u" internal="map_rearspl1u">51.8 51.4 51.1 51.4 51.2 50.7 50.3 49.6 48.6 48.7 50.1 51.3 51.8 51.4 50.3 49.5 50.9 53.4 55.2 55.8 55.5 54.1 51.3 48.8 48.7 51.0 53.5 54.7 55.5 56.2 56.2 56.2 56.9 57.9 58.6 59.2 60.1 62.0 64.0 66.3 68.5 69.8 70.3 70.5 70.6 71.0 71.0 70.6 70.3 70.4 70.3 69.8 68.5 66.7 64.8 62.9 60.6 58.4 56.9 56.5 56.0 55.8 56.0 55.5 54.2 51.9 48.7 45.5 44.4 44.3 44.2 44.0 43.7</data>
+        <data name="test1_on-ear" yunit="dBspl" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl1" display="show" envdisplay="hide" stim_type="speech-ists" stim_level="soft50" source="acoustic" bandwidth="full" internal="map_rearspl1">40.8 40.9 40.4 40.5 40.9 40.9 40.5 40.2 40.0 39.5 41.3 41.8 42.0 41.5 41.2 40.4 40.9 42.9 44.1 44.3 43.8 42.9 40.8 39.2 39.5 39.7 42.4 44.1 45.0 46.1 46.5 46.0 46.4 47.1 47.7 48.9 50.0 51.4 53.2 55.2 56.6 57.7 58.3 58.9 59.1 59.9 60.0 60.3 60.5 60.4 59.8 59.5 58.7 57.0 55.4 53.4 49.6 46.6 45.3 45.9 46.3 46.7 46.9 46.5 45.5 44.2 43.4 43.3 43.4 43.4 43.3 43.0 42.7</data>
+        <data name="test1_on-ear" yunit="dBspl" envelope="valleys" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl1l" internal="map_rearspl1l">26.5 27.6 28.1 27.8 27.1 26.2 25.2 25.7 27.1 28.1 28.4 28.5 28.7 29.7 30.5 30.6 30.3 29.7 29.3 29.1 28.4 27.6 27.2 27.1 27.5 28.2 28.9 29.7 30.3 30.7 30.9 31.1 31.3 31.6 32.4 33.6 35.1 36.4 37.9 39.4 40.5 41.7 43.0 43.9 44.7 45.5 46.2 46.6 46.6 45.8 44.9 44.3 43.6 42.8 41.8 40.7 39.6 39.0 39.4 40.3 41.1 41.5 41.9 42.1 42.2 42.4 42.6 42.9 43.1 43.1 43.0 42.8 42.6</data>
+        <data name="test1_on-ear" yunit="dBhl" envelope="peaks" xscale="12th" xunit="Hz" internal="map_rearhl1u">34.3 33.9 33.6 33.9 33.7 33.8 34.0 34.0 33.5 34.3 36.3 38.1 39.2 39.3 39.0 38.6 40.7 43.5 45.4 46.3 46.3 45.1 42.6 40.3 40.0 42.2 44.4 45.5 46.2 46.8 46.9 46.8 47.5 48.4 49.1 49.7 49.9 51.1 52.3 54.0 55.6 56.9 57.4 57.5 57.7 58.0 58.1 57.6 56.9 56.6 56.2 55.2 53.5 51.5 49.5 47.4 45.1 42.7 41.0 40.5 39.6 38.9 38.7 37.7 35.9 32.6 28.4 24.3 22.3 21.0 19.7 18.3 16.8</data>
+        <data name="test1_on-ear" yunit="dBhl" xscale="12th" xunit="Hz" internal="map_rearhl1">23.3 23.4 22.9 23.0 23.4 24.0 24.2 24.7 25.0 25.1 27.5 28.6 29.5 29.5 29.9 29.5 30.7 32.9 34.4 34.8 34.6 33.9 32.1 30.7 30.8 30.9 33.4 34.9 35.7 36.8 37.1 36.7 37.0 37.6 38.3 39.4 39.8 40.6 41.6 43.0 43.7 44.8 45.4 45.9 46.2 46.9 47.0 47.3 47.2 46.6 45.7 44.9 43.7 41.9 40.1 38.0 34.1 30.9 29.5 29.9 29.9 29.8 29.5 28.7 27.2 24.8 23.1 22.1 21.3 20.1 18.8 17.4 15.8</data>
+        <data name="test1_on-ear" yunit="dBhl" envelope="valleys" xscale="12th" xunit="Hz" internal="map_rearhl1l">9.0 10.1 10.6 10.3 9.6 9.3 8.9 10.1 12.1 13.7 14.6 15.3 16.1 17.6 19.2 19.8 20.1 19.7 19.6 19.6 19.2 18.6 18.5 18.6 18.8 19.4 19.9 20.5 21.0 21.4 21.6 21.8 21.9 22.1 22.9 24.1 24.8 25.6 26.3 27.1 27.6 28.7 30.0 31.0 31.7 32.6 33.2 33.6 33.3 32.0 30.7 29.7 28.6 27.6 26.5 25.3 24.0 23.3 23.6 24.3 24.7 24.6 24.5 24.2 23.9 23.1 22.3 21.7 21.0 19.8 18.5 17.1 15.7</data>
+        <data name="test2_on-ear" yunit="dBspl" envelope="peaks" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl2u" internal="map_rearspl2u">66.1 65.9 65.9 66.2 66.2 65.9 65.7 65.0 63.8 63.8 65.1 66.2 66.6 66.2 65.2 64.4 65.9 68.4 70.1 70.7 70.5 69.0 66.0 63.2 63.0 64.1 65.9 67.2 68.1 68.8 68.8 68.7 69.0 69.5 70.7 72.2 73.4 74.5 76.0 77.5 79.2 80.6 81.2 81.4 81.6 81.8 81.8 81.0 80.1 80.0 80.2 79.8 78.5 76.5 75.0 74.5 73.4 71.2 69.3 69.7 69.6 69.4 69.6 69.2 67.6 64.8 61.0 55.7 50.0 47.4 46.0 45.1 44.3</data>
+        <data name="test2_on-ear" yunit="dBspl" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl2" display="show" envdisplay="hide" stim_type="speech-ists" stim_level="avg65" source="acoustic" bandwidth="full" internal="map_rearspl2">55.3 55.4 55.0 55.3 55.9 56.0 55.8 55.4 55.1 54.4 56.2 56.7 57.0 56.4 56.1 55.1 55.5 57.6 58.8 59.0 58.5 57.6 55.3 53.4 53.6 53.5 55.3 56.7 57.2 58.2 58.4 57.7 57.8 58.6 59.6 61.1 62.1 63.0 64.4 66.2 67.4 68.5 69.2 70.0 70.2 70.9 70.9 70.8 70.8 70.5 69.8 69.6 69.1 67.5 66.2 64.7 61.5 58.7 57.2 57.7 57.8 58.4 58.5 58.1 56.2 53.4 49.7 45.0 44.0 43.7 43.5 43.1 42.6</data>
+        <data name="test2_on-ear" yunit="dBspl" envelope="valleys" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl2l" internal="map_rearspl2l">37.1 37.6 37.8 37.4 37.1 36.5 36.1 37.0 39.1 41.2 42.1 42.1 42.7 44.2 45.0 44.5 43.5 43.0 42.6 41.5 39.9 38.4 37.3 36.4 36.1 36.4 37.9 39.3 40.1 40.5 40.9 41.1 41.1 41.7 42.6 44.6 46.7 48.0 49.0 50.1 51.7 53.5 54.9 56.0 56.8 57.1 57.2 57.4 57.0 56.7 56.9 56.9 56.1 55.0 53.5 51.3 48.3 45.4 43.5 43.1 43.2 43.3 43.6 43.6 43.5 43.3 43.2 43.1 43.0 43.0 42.8 42.5 42.3</data>
+        <data name="test2_on-ear" yunit="dBhl" envelope="peaks" xscale="12th" xunit="Hz" internal="map_rearhl2u">48.6 48.4 48.4 48.7 48.7 49.0 49.4 49.4 48.8 49.4 51.3 53.0 54.1 54.2 53.9 53.6 55.7 58.5 60.4 61.3 61.2 60.0 57.3 54.7 54.3 55.3 56.9 58.1 58.8 59.4 59.5 59.3 59.6 60.1 61.2 62.7 63.1 63.7 64.4 65.3 66.3 67.7 68.3 68.5 68.7 68.9 68.8 68.0 66.7 66.2 66.1 65.2 63.5 61.4 59.7 59.1 57.8 55.4 53.5 53.7 53.2 52.5 52.3 51.3 49.3 45.5 40.7 34.4 27.9 24.1 21.4 19.4 17.3</data>
+        <data name="test2_on-ear" yunit="dBhl" xscale="12th" xunit="Hz" internal="map_rearhl2">37.8 37.9 37.5 37.8 38.4 39.1 39.5 39.8 40.0 40.0 42.4 43.5 44.4 44.4 44.8 44.3 45.3 47.6 49.1 49.5 49.3 48.6 46.5 44.9 44.9 44.7 46.3 47.5 47.9 48.9 49.1 48.3 48.4 49.1 50.1 51.6 51.8 52.2 52.8 53.9 54.5 55.6 56.3 57.0 57.3 57.9 57.9 57.8 57.4 56.7 55.6 55.0 54.1 52.4 50.9 49.3 46.0 43.0 41.4 41.7 41.4 41.5 41.2 40.3 37.9 34.0 29.4 23.8 21.9 20.3 18.9 17.4 15.7</data>
+        <data name="test2_on-ear" yunit="dBhl" envelope="valleys" xscale="12th" xunit="Hz" internal="map_rearhl2l">19.6 20.1 20.2 19.9 19.6 19.7 19.8 21.4 24.1 26.8 28.3 28.9 30.2 32.2 33.7 33.7 33.3 33.0 32.9 32.1 30.6 29.4 28.5 27.9 27.4 27.6 28.9 30.2 30.8 31.2 31.6 31.7 31.7 32.2 33.2 35.1 36.4 37.1 37.4 37.9 38.8 40.6 42.0 43.0 43.8 44.1 44.3 44.4 43.7 42.9 42.7 42.3 41.1 39.9 38.2 35.8 32.8 29.7 27.7 27.1 26.8 26.4 26.2 25.8 25.2 24.0 22.9 21.9 20.9 19.6 18.2 16.9 15.4</data>
+        <data name="test3_on-ear" yunit="dBspl" envelope="peaks" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl3u" internal="map_rearspl3u">70.0 70.4 71.8 73.7 75.3 76.1 76.5 76.6 76.3 76.1 76.7 77.6 78.0 77.6 77.1 77.8 80.9 84.2 86.1 86.8 86.5 85.2 82.8 81.0 80.9 81.3 82.2 83.2 84.0 84.6 84.4 84.0 84.2 84.7 85.7 87.1 88.6 90.2 91.3 91.8 92.6 93.9 94.8 95.0 95.0 94.8 94.2 93.3 92.3 92.3 92.6 92.2 91.1 89.9 89.0 88.2 86.7 83.8 80.4 79.4 79.2 78.8 78.8 78.0 75.9 72.6 68.8 64.2 60.6 59.5 58.9 58.3 57.4</data>
+        <data name="test3_on-ear" yunit="dBspl" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl3" display="show" envdisplay="hide" stim_type="speech-ists" stim_level="loud80" source="acoustic" bandwidth="full" internal="map_rearspl3">59.0 60.0 60.3 62.7 65.1 66.2 66.8 67.1 67.5 67.2 68.4 68.7 68.8 68.2 68.3 68.4 69.6 72.7 74.4 74.8 74.7 74.1 72.3 71.1 71.5 71.5 72.5 73.3 73.2 73.9 73.9 73.1 73.0 73.9 74.5 76.3 77.3 78.3 79.2 80.4 81.2 82.1 82.4 82.6 82.8 83.2 83.1 83.1 83.0 82.5 81.7 81.7 81.4 80.2 79.1 77.5 74.1 69.9 67.5 67.4 66.6 66.9 66.8 66.3 64.0 61.2 57.6 53.6 52.6 52.1 51.7 51.2 50.5</data>
+        <data name="test3_on-ear" yunit="dBspl" envelope="valleys" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl3l" internal="map_rearspl3l">41.9 43.0 43.9 44.6 45.4 46.0 47.4 49.4 51.6 53.8 54.8 54.4 54.5 56.3 57.2 57.0 56.7 57.2 57.4 56.9 56.1 55.1 53.9 53.1 52.3 52.3 53.4 54.2 54.3 54.3 54.6 54.7 54.4 55.0 56.8 58.7 60.1 61.3 62.3 62.9 63.9 65.8 67.3 67.8 67.9 67.8 67.6 67.6 67.7 67.7 67.5 67.4 67.4 66.5 64.7 62.4 59.2 55.1 51.4 49.8 49.2 48.9 48.8 48.6 47.8 46.9 45.8 44.7 44.2 44.0 43.8 43.5 43.2</data>
+        <data name="test3_on-ear" yunit="dBhl" envelope="peaks" xscale="12th" xunit="Hz" internal="map_rearhl3u">52.5 52.9 54.3 56.2 57.8 59.2 60.1 61.0 61.2 61.7 62.9 64.4 65.4 65.6 65.8 66.9 70.7 74.2 76.4 77.3 77.3 76.2 74.0 72.5 72.2 72.5 73.2 74.0 74.7 75.2 75.0 74.6 74.8 75.2 76.2 77.6 78.3 79.4 79.7 79.6 79.7 81.0 81.9 82.1 82.1 81.8 81.3 80.3 79.0 78.5 78.4 77.6 76.1 74.7 73.7 72.8 71.2 68.1 64.6 63.4 62.8 61.9 61.4 60.2 57.6 53.3 48.5 42.9 38.5 36.1 34.4 32.6 30.5</data>
+        <data name="test3_on-ear" yunit="dBhl" xscale="12th" xunit="Hz" internal="map_rearhl3">41.5 42.5 42.8 45.2 47.6 49.3 50.5 51.5 52.4 52.8 54.6 55.5 56.2 56.2 57.0 57.5 59.4 62.7 64.6 65.4 65.5 65.1 63.6 62.6 62.8 62.6 63.5 64.1 63.9 64.6 64.5 63.7 63.6 64.5 65.0 66.8 67.0 67.5 67.6 68.2 68.3 69.2 69.5 69.7 69.8 70.3 70.2 70.1 69.7 68.7 67.5 67.1 66.4 65.0 63.8 62.1 58.6 54.2 51.7 51.4 50.2 50.0 49.5 48.5 45.7 41.9 37.3 32.4 30.5 28.7 27.2 25.5 23.5</data>
+        <data name="test3_on-ear" yunit="dBhl" envelope="valleys" xscale="12th" xunit="Hz" internal="map_rearhl3l">24.4 25.5 26.4 27.1 27.9 29.1 31.1 33.8 36.6 39.4 41.0 41.2 42.0 44.2 45.9 46.1 46.5 47.3 47.7 47.4 46.9 46.1 45.2 44.6 43.6 43.5 44.4 45.0 45.0 45.0 45.3 45.3 45.0 45.6 47.3 49.2 49.8 50.4 50.6 50.6 51.0 52.9 54.4 54.9 55.0 54.9 54.6 54.6 54.4 53.9 53.3 52.8 52.4 51.3 49.4 46.9 43.7 39.4 35.6 33.8 32.8 32.0 31.5 30.7 29.5 27.5 25.5 23.5 22.1 20.7 19.3 17.8 16.2</data>
+        <data name="test4_on-ear" yunit="dBspl" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl4" display="show" envdisplay="hide" stim_type="mpo" mpo_level="85" source="acoustic" bandwidth="full" internal="map_rearspl4">84.0 83.9 83.8 83.7 83.6 83.6 83.5 83.4 83.4 84.0 84.6 85.2 85.8 85.7 85.5 85.3 85.2 86.2 87.2 88.2 89.3 88.1 87.1 86.1 84.9 85.7 86.9 87.7 88.7 88.0 87.5 86.8 86.3 87.7 88.7 90.2 91.6 93.3 95.7 97.4 99.3 100.0 100.7 101.4 102.0 102.8 103.5 104.4 105.0 103.8 102.8 101.7 100.7 99.8 98.8 97.9 97.2 94.7 92.9 90.4 88.5 90.1 91.4 92.9 94.3 90.0 85.9 82.1 78.4 75.6 72.9 70.4 67.6</data>
+        <data name="test4_on-ear" yunit="dBhl" xscale="12th" xunit="Hz" internal="map_rearhl4">66.5 66.4 66.3 66.2 66.1 66.7 67.2 67.8 68.3 69.6 70.8 71.9 73.3 73.7 74.2 74.5 75.0 76.2 77.4 78.8 80.0 79.2 78.3 77.6 76.2 76.9 77.9 78.6 79.4 78.7 78.1 77.4 76.9 78.3 79.3 80.7 81.3 82.5 84.0 85.1 86.4 87.1 87.7 88.4 89.0 89.8 90.5 91.4 91.7 90.0 88.7 87.1 85.7 84.6 83.5 82.5 81.6 79.0 77.1 74.4 72.1 73.2 74.1 75.0 76.0 70.6 65.6 60.8 56.3 52.2 48.4 44.7 40.7</data>
+        <data name="target1" yunit="dBspl" xscale="audio" xunit="Hz" internal="map_rear_targetspl1">42.9 53.1 53.2 53.9 59.5 65.9 66.9 65.2 56.8 53.2 _ _</data>
+        <data name="target2" yunit="dBspl" xscale="audio" xunit="Hz" internal="map_rear_targetspl2">57.8 58.8 59.5 60.9 66.1 72.2 73.4 72.4 64.7 61.6 _ _</data>
+        <data name="target3" yunit="dBspl" xscale="audio" xunit="Hz" internal="map_rear_targetspl3">64.6 70.5 69.6 72.1 76.6 81.9 81.7 82.7 67.8 63.1 _ _</data>
+        <data name="target1" yunit="dBhl" xscale="audio" xunit="Hz" internal="map_rear_targethl1">25.4 42.9 44.6 44.6 50.0 53.0 53.9 50.2 40.8 34.9 _ _</data>
+        <data name="target2" yunit="dBhl" xscale="audio" xunit="Hz" internal="map_rear_targethl2">40.3 48.6 51.0 51.6 56.6 59.3 60.4 57.4 48.7 43.3 _ _</data>
+        <data name="target3" yunit="dBhl" xscale="audio" xunit="Hz" internal="map_rear_targethl3">47.1 60.3 61.1 62.8 67.1 69.0 68.7 67.7 51.8 44.8 _ _</data>
+        <data name="map" yunit="dBspl" xunit="Hz" xscale="audio" internal="targets_mapspl">17.5 10.2 8.5 9.3 9.5 12.9 13.0 15.0 16.0 18.3 22.1 26.9</data>
+        <data name="map" yunit="dBspl" xunit="Hz" xscale="3rd" internal="targets_mapspl3rd">21.8 18.8 16.0 13.7 12.0 10.8 9.8 9.1 9.3 11.8 15.3 16.6 15.0 13.5 13.7 15.6 18.3</data>
+        <data name="threshold" yunit="dBspl" xunit="Hz" xscale="audio">32.5 45.2 48.5 54.3 54.5 62.9 63.0 65.0 81.0 83.3 _ _</data>
+        <data name="threshold" yunit="dBhl" xunit="Hz" xscale="audio">15.0 35.0 40.0 45.0 45.0 50.0 50.0 50.0 65.0 65.0 _ _</data>
+        <data name="ucl" yunit="dBspl" xunit="Hz" xscale="audio">92.7 103.4 105.8 108.1 110.1 111.9 112.0 111.6 116.1 116.8 _ _</data>
+    </test>
+    <test name="speechmap" side="right" HI_Type="rite" coupling="custommold" vent_class="occluding" reservegain="10db">
+        <data name="test1_on-ear_meas_sii" internal="map_rear_sii1">13</data>
+        <data name="test2_on-ear_meas_sii" internal="map_rear_sii2">48</data>
+        <data name="test3_on-ear_meas_sii" internal="map_rear_sii3">79</data>
+        <data name="test4_on-ear_meas_sii" internal="map_rear_sii4">81</data>
+        <data name="test1_on-ear_meas_rmse" internal="map_rear_rmse1">9.3</data>
+        <data name="test2_on-ear_meas_rmse" internal="map_rear_rmse2">3.9</data>
+        <data name="test3_on-ear_meas_rmse" internal="map_rear_rmse3">2.0</data>
+        <data name="test1_on-ear" yunit="dBspl" envelope="peaks" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl1u" internal="map_rearspl1u">52.3 52.4 52.2 51.9 51.7 51.2 50.2 48.8 47.4 46.5 47.4 49.4 50.9 51.8 51.9 51.8 52.2 52.6 52.5 52.2 51.5 50.1 49.3 49.5 49.8 51.6 54.6 56.7 58.3 59.6 60.0 59.7 59.2 58.4 58.0 58.7 60.1 61.7 63.7 65.1 65.8 66.5 67.2 67.8 68.6 69.4 69.8 69.6 69.4 69.1 68.9 68.6 67.7 66.5 65.0 62.6 59.3 56.8 56.0 55.4 54.7 55.8 57.6 58.5 58.5 57.7 55.5 51.4 45.5 42.8 42.5 42.2 41.9</data>
+        <data name="test1_on-ear" yunit="dBspl" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl1" display="show" envdisplay="hide" stim_type="speech-ists" stim_level="soft50" source="acoustic" bandwidth="full" internal="map_rearspl1">41.8 41.7 41.3 41.0 40.9 40.1 39.6 39.0 38.4 37.8 39.2 40.6 41.4 41.8 41.6 41.4 41.3 41.9 42.2 42.4 41.6 40.3 39.7 39.6 40.2 40.9 43.9 45.7 46.8 48.5 49.0 48.7 48.3 48.5 47.7 48.6 49.5 50.9 52.1 54.0 54.7 55.2 55.5 56.7 57.5 58.5 59.2 59.5 59.5 59.3 59.0 58.8 58.0 56.8 55.1 53.0 47.8 44.9 44.4 44.3 44.4 45.5 47.2 47.5 47.4 46.6 45.1 42.1 41.2 41.3 41.3 41.2 41.1</data>
+        <data name="test1_on-ear" yunit="dBspl" envelope="valleys" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl1l" internal="map_rearspl1l">25.8 26.0 26.0 25.4 24.7 23.9 23.4 23.4 24.5 25.6 26.1 26.7 27.9 29.2 29.8 29.4 29.0 28.5 27.8 27.1 26.4 25.7 25.6 25.9 26.5 27.6 28.9 30.0 31.0 32.0 32.4 32.2 31.6 31.1 31.4 32.7 33.9 34.6 36.1 37.5 38.3 39.0 40.3 41.9 43.0 43.8 44.6 45.0 44.9 44.3 43.4 42.5 41.8 41.1 40.1 38.7 37.2 36.8 37.3 38.1 38.7 39.0 39.3 39.6 39.8 40.1 40.5 40.7 40.9 41.0 41.1 41.0 41.0</data>
+        <data name="test1_on-ear" yunit="dBhl" envelope="peaks" xscale="12th" xunit="Hz" internal="map_rearhl1u">34.8 34.9 34.7 34.4 34.2 34.4 33.9 33.3 32.3 32.1 33.6 36.2 38.4 39.7 40.6 40.9 42.0 42.7 42.7 42.7 42.3 41.1 40.5 41.0 41.1 42.8 45.6 47.5 49.0 50.3 50.7 50.3 49.7 48.9 48.5 49.2 49.8 50.9 52.0 52.9 52.9 53.5 54.3 54.9 55.6 56.4 56.8 56.6 56.0 55.3 54.8 54.0 52.7 51.4 49.7 47.2 43.8 41.1 40.2 39.4 38.3 38.9 40.3 40.7 40.2 38.4 35.2 30.2 23.4 19.5 17.9 16.5 15.0</data>
+        <data name="test1_on-ear" yunit="dBhl" xscale="12th" xunit="Hz" internal="map_rearhl1">24.3 24.2 23.8 23.5 23.4 23.2 23.3 23.5 23.3 23.3 25.4 27.4 28.9 29.7 30.3 30.5 31.1 31.9 32.4 32.9 32.4 31.3 30.9 31.1 31.5 32.0 34.9 36.6 37.5 39.2 39.6 39.3 38.9 39.1 38.2 39.1 39.2 40.1 40.4 41.8 41.8 42.3 42.6 43.7 44.5 45.5 46.2 46.5 46.2 45.5 44.8 44.2 43.0 41.6 39.8 37.6 32.2 29.2 28.6 28.3 28.0 28.5 29.8 29.7 29.1 27.3 24.8 20.8 19.1 17.9 16.8 15.5 14.2</data>
+        <data name="test1_on-ear" yunit="dBhl" envelope="valleys" xscale="12th" xunit="Hz" internal="map_rearhl1l">8.3 8.5 8.5 7.9 7.2 7.1 7.1 7.8 9.4 11.2 12.3 13.5 15.3 17.2 18.5 18.5 18.8 18.6 18.0 17.6 17.1 16.7 16.8 17.4 17.8 18.7 19.9 20.8 21.7 22.7 23.1 22.8 22.2 21.7 22.0 23.2 23.6 23.8 24.5 25.3 25.4 26.1 27.4 28.9 30.0 30.8 31.6 32.0 31.5 30.5 29.2 28.0 26.8 25.9 24.8 23.3 21.7 21.1 21.5 22.1 22.3 22.1 22.0 21.7 21.5 20.8 20.2 19.5 18.8 17.7 16.5 15.4 14.1</data>
+        <data name="test2_on-ear" yunit="dBspl" envelope="peaks" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl2u" internal="map_rearspl2u">67.0 67.1 67.0 66.9 66.9 66.5 65.5 64.1 62.5 61.4 62.2 64.4 66.1 66.9 66.9 66.6 66.9 67.4 67.3 67.1 66.4 64.8 63.8 63.9 63.8 64.2 66.7 69.0 70.0 70.6 70.8 70.5 70.1 69.7 70.1 71.2 71.7 72.1 73.6 75.2 76.1 76.7 77.4 78.3 79.3 80.4 81.2 81.1 80.5 80.7 81.2 81.0 80.1 78.3 76.1 73.9 70.6 67.7 66.7 66.7 67.5 68.8 70.3 71.0 70.9 70.0 67.8 63.5 57.1 54.1 52.7 50.9 47.5</data>
+        <data name="test2_on-ear" yunit="dBspl" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl2" display="show" envdisplay="hide" stim_type="speech-ists" stim_level="avg65" source="acoustic" bandwidth="full" internal="map_rearspl2">56.3 56.2 55.9 55.8 55.9 55.3 54.8 54.2 53.5 52.7 54.1 55.5 56.4 56.8 56.5 56.3 56.1 56.6 56.8 56.9 56.2 54.8 54.1 53.9 54.0 54.1 56.7 58.2 59.0 60.6 61.0 60.6 59.9 60.1 59.0 59.8 60.6 61.8 62.7 64.7 65.4 66.0 66.5 68.0 68.8 69.7 70.3 70.5 70.5 70.3 70.1 70.0 69.3 68.1 66.6 64.4 59.5 57.1 56.1 55.7 55.4 56.6 58.8 59.3 59.1 58.2 56.2 50.2 46.0 45.0 44.3 43.6 41.6</data>
+        <data name="test2_on-ear" yunit="dBspl" envelope="valleys" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl2l" internal="map_rearspl2l">37.0 37.6 37.2 36.0 35.1 34.4 34.3 34.9 36.9 38.8 39.8 40.6 41.8 43.2 43.9 43.5 42.9 42.1 41.1 40.2 39.4 37.9 36.8 36.4 36.3 37.3 38.9 40.0 41.1 42.3 43.3 43.4 43.0 42.6 43.0 43.8 44.4 45.1 46.6 48.2 49.0 50.3 52.1 53.3 54.1 54.9 55.5 56.0 55.9 55.8 56.0 56.0 55.6 54.7 53.2 50.6 47.1 43.6 41.8 41.3 41.5 42.1 42.9 43.1 43.0 42.7 42.2 41.6 41.4 41.4 41.4 41.3 41.2</data>
+        <data name="test2_on-ear" yunit="dBhl" envelope="peaks" xscale="12th" xunit="Hz" internal="map_rearhl2u">49.5 49.6 49.5 49.4 49.4 49.6 49.2 48.6 47.4 46.9 48.4 51.2 53.5 54.9 55.6 55.7 56.7 57.4 57.6 57.7 57.2 55.8 55.0 55.4 55.1 55.4 57.7 59.8 60.7 61.3 61.4 61.1 60.7 60.2 60.6 61.7 61.4 61.3 62.0 63.0 63.2 63.8 64.5 65.4 66.4 67.4 68.2 68.1 67.2 66.9 67.0 66.5 65.1 63.1 60.8 58.4 55.1 52.0 50.9 50.7 51.1 51.9 52.9 53.2 52.6 50.6 47.5 42.3 35.0 30.8 28.2 25.2 20.6</data>
+        <data name="test2_on-ear" yunit="dBhl" xscale="12th" xunit="Hz" internal="map_rearhl2">38.8 38.7 38.4 38.3 38.4 38.4 38.5 38.6 38.4 38.2 40.3 42.3 43.9 44.7 45.2 45.4 45.9 46.6 47.1 47.4 46.9 45.8 45.4 45.4 45.4 45.3 47.7 49.0 49.7 51.3 51.6 51.2 50.5 50.7 49.5 50.3 50.3 51.0 51.0 52.4 52.5 53.1 53.6 55.0 55.8 56.7 57.3 57.5 57.1 56.5 55.9 55.4 54.3 53.0 51.3 49.0 44.0 41.3 40.3 39.7 39.0 39.7 41.4 41.5 40.8 38.9 35.9 29.0 23.9 21.7 19.7 17.9 14.7</data>
+        <data name="test2_on-ear" yunit="dBhl" envelope="valleys" xscale="12th" xunit="Hz" internal="map_rearhl2l">19.5 20.1 19.7 18.5 17.6 17.5 18.0 19.3 21.8 24.4 25.9 27.3 29.3 31.2 32.6 32.7 32.7 32.2 31.4 30.8 30.1 29.0 28.1 27.9 27.6 28.5 29.8 30.9 31.8 33.0 33.9 34.0 33.6 33.2 33.5 34.2 34.1 34.3 34.9 35.9 36.1 37.4 39.2 40.4 41.2 41.9 42.6 43.0 42.6 42.0 41.8 41.4 40.6 39.6 37.9 35.2 31.5 27.9 26.0 25.3 25.1 25.2 25.5 25.3 24.7 23.3 21.9 20.4 19.3 18.0 16.8 15.6 14.3</data>
+        <data name="test3_on-ear" yunit="dBspl" envelope="peaks" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl3u" internal="map_rearspl3u">70.8 71.2 72.4 74.1 75.2 75.5 75.6 75.5 75.0 74.3 74.7 76.4 78.3 79.1 79.1 79.6 81.0 82.1 82.6 82.8 82.3 81.6 81.2 81.3 81.1 81.0 82.5 84.4 85.4 86.0 86.1 85.8 85.4 84.8 84.7 85.6 86.7 88.3 89.7 89.9 89.2 89.2 90.5 92.1 93.2 93.8 93.9 93.2 91.9 91.8 92.4 92.6 92.0 90.7 89.2 87.2 84.1 80.8 78.4 77.2 76.7 77.2 78.2 78.2 77.6 76.6 74.5 71.0 66.1 62.4 60.9 59.6 58.2</data>
+        <data name="test3_on-ear" yunit="dBspl" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl3" display="show" envdisplay="hide" stim_type="speech-ists" stim_level="loud80" source="acoustic" bandwidth="full" internal="map_rearspl3">60.1 60.8 61.1 62.8 64.5 65.1 65.8 65.9 66.0 65.5 66.4 67.5 68.3 68.8 68.9 69.4 70.2 71.3 72.0 72.6 72.5 71.8 71.7 71.3 71.4 71.1 73.0 74.0 74.6 75.6 75.8 75.2 74.2 74.3 73.1 74.1 75.1 76.4 77.3 78.8 79.1 79.3 79.4 80.4 81.0 81.9 82.3 82.3 82.1 81.9 81.8 82.0 81.6 80.6 79.1 77.0 71.8 68.4 66.3 65.2 64.2 65.0 66.5 66.7 66.4 65.4 63.3 58.0 54.8 53.8 53.0 52.3 50.5</data>
+        <data name="test3_on-ear" yunit="dBspl" envelope="valleys" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl3l" internal="map_rearspl3l">41.6 42.0 42.3 42.8 43.5 44.1 45.5 47.3 49.9 51.8 52.5 53.1 54.4 55.8 56.7 56.7 56.7 56.6 56.4 56.1 55.4 54.6 54.2 54.1 53.9 54.0 55.0 56.0 56.5 57.1 57.6 57.0 55.8 55.0 54.7 55.7 57.2 58.5 59.6 60.3 60.8 62.2 64.0 64.9 65.3 65.7 66.3 66.6 66.4 66.1 66.2 66.7 66.9 66.1 64.4 61.8 57.9 53.9 50.8 48.6 47.8 47.8 48.4 48.7 48.2 47.3 46.1 44.9 43.6 42.9 42.6 42.1 41.7</data>
+        <data name="test3_on-ear" yunit="dBhl" envelope="peaks" xscale="12th" xunit="Hz" internal="map_rearhl3u">53.3 53.8 54.9 56.6 57.7 58.6 59.3 60.0 59.9 59.9 60.9 63.1 65.7 67.1 67.8 68.8 70.8 72.1 72.9 73.3 73.1 72.6 72.5 72.8 72.4 72.2 73.5 75.2 76.1 76.7 76.7 76.4 75.9 75.4 75.3 76.1 76.4 77.5 78.0 77.7 76.3 76.3 77.6 79.1 80.3 80.9 80.9 80.2 78.6 78.0 78.2 78.0 77.0 75.6 73.9 71.7 68.5 65.0 62.5 61.2 60.3 60.3 60.9 60.4 59.3 57.3 54.2 49.8 44.0 39.0 36.4 34.0 31.3</data>
+        <data name="test3_on-ear" yunit="dBhl" xscale="12th" xunit="Hz" internal="map_rearhl3">42.6 43.3 43.6 45.3 47.0 48.2 49.4 50.3 50.9 51.1 52.6 54.3 55.8 56.8 57.6 58.5 60.0 61.4 62.3 63.1 63.3 62.8 63.0 62.8 62.7 62.3 64.0 64.8 65.3 66.2 66.4 65.8 64.8 64.9 63.7 64.6 64.9 65.6 65.6 66.6 66.2 66.4 66.5 67.5 68.0 68.9 69.3 69.3 68.8 68.1 67.6 67.4 66.6 65.4 63.8 61.6 56.2 52.7 50.5 49.2 47.8 48.1 49.1 48.9 48.1 46.1 43.0 36.8 32.6 30.4 28.5 26.6 23.5</data>
+        <data name="test3_on-ear" yunit="dBhl" envelope="valleys" xscale="12th" xunit="Hz" internal="map_rearhl3l">24.1 24.5 24.8 25.3 26.0 27.2 29.2 31.7 34.8 37.4 38.6 39.9 41.8 43.8 45.4 45.9 46.5 46.7 46.6 46.6 46.2 45.6 45.5 45.6 45.2 45.2 46.0 46.8 47.2 47.8 48.2 47.6 46.4 45.5 45.2 46.2 46.9 47.6 47.9 48.1 47.9 49.3 51.1 51.9 52.3 52.7 53.3 53.6 53.1 52.3 52.0 52.1 51.9 51.0 49.1 46.3 42.4 38.1 34.9 32.6 31.4 30.9 31.0 30.8 29.9 28.0 25.8 23.6 21.5 19.6 18.1 16.5 14.8</data>
+        <data name="test4_on-ear" yunit="dBspl" xscale="12th" xunit="Hz" internal_alt="map_compare_rearspl4" display="show" envdisplay="hide" stim_type="mpo" mpo_level="85" source="acoustic" bandwidth="full" internal="map_rearspl4">85.0 84.7 84.2 83.9 83.4 83.6 83.7 83.9 84.0 83.8 83.6 83.5 83.2 82.9 82.3 82.0 81.5 82.3 83.1 84.0 84.8 85.6 86.3 86.9 87.7 88.1 88.8 89.3 89.8 89.9 90.0 90.1 90.2 90.2 90.2 90.1 90.1 91.5 93.3 94.6 96.2 97.4 98.6 99.9 101.0 101.3 101.5 101.8 102.0 101.9 101.8 101.7 101.5 100.3 99.1 98.0 97.0 95.7 94.9 93.6 92.7 93.7 94.5 95.4 96.2 92.9 89.7 86.7 83.9 80.9 78.0 75.3 72.4</data>
+        <data name="test4_on-ear" yunit="dBhl" xscale="12th" xunit="Hz" internal="map_rearhl4">67.5 67.2 66.7 66.4 65.9 66.7 67.4 68.3 69.0 69.4 69.8 70.2 70.7 70.8 71.0 71.1 71.3 72.4 73.4 74.5 75.6 76.6 77.5 78.4 79.0 79.3 79.8 80.1 80.5 80.6 80.6 80.7 80.8 80.7 80.7 80.6 79.9 80.6 81.7 82.4 83.3 84.5 85.7 87.0 88.0 88.3 88.5 88.8 88.7 88.1 87.6 87.1 86.5 85.2 83.8 82.5 81.4 80.0 79.0 77.6 76.3 76.7 77.1 77.5 77.9 73.5 69.4 65.5 61.8 57.5 53.5 49.7 45.5</data>
+        <data name="target1" yunit="dBspl" xscale="audio" xunit="Hz" internal="map_rear_targetspl1">43.3 53.3 53.2 53.8 59.2 65.5 66.1 64.3 55.9 52.4 _ _</data>
+        <data name="target2" yunit="dBspl" xscale="audio" xunit="Hz" internal="map_rear_targetspl2">57.6 58.8 59.5 60.7 65.9 72.0 72.7 71.5 63.9 60.9 _ _</data>
+        <data name="target3" yunit="dBspl" xscale="audio" xunit="Hz" internal="map_rear_targetspl3">64.6 70.5 69.5 71.8 76.5 82.1 81.2 82.0 67.2 62.6 _ _</data>
+        <data name="target1" yunit="dBhl" xscale="audio" xunit="Hz" internal="map_rear_targethl1">25.8 43.1 44.7 44.5 49.7 52.6 53.1 49.3 39.9 34.1 _ _</data>
+        <data name="target2" yunit="dBhl" xscale="audio" xunit="Hz" internal="map_rear_targethl2">40.1 48.6 50.9 51.4 56.4 59.1 59.7 56.5 47.9 42.6 _ _</data>
+        <data name="target3" yunit="dBhl" xscale="audio" xunit="Hz" internal="map_rear_targethl3">47.1 60.3 61.0 62.5 67.0 69.2 68.2 67.0 51.2 44.3 _ _</data>
+        <data name="map" yunit="dBspl" xunit="Hz" xscale="audio" internal="targets_mapspl">17.5 10.2 8.5 9.3 9.5 12.9 13.0 15.0 16.0 18.3 22.1 26.9</data>
+        <data name="map" yunit="dBspl" xunit="Hz" xscale="3rd" internal="targets_mapspl3rd">21.8 18.8 16.0 13.7 12.0 10.8 9.8 9.1 9.3 11.8 15.3 16.6 15.0 13.5 13.7 15.6 18.3</data>
+        <data name="threshold" yunit="dBspl" xunit="Hz" xscale="audio">37.5 45.2 53.5 54.3 59.5 62.9 63.0 65.0 71.0 78.3 _ _</data>
+        <data name="threshold" yunit="dBhl" xunit="Hz" xscale="audio">20.0 35.0 45.0 45.0 50.0 50.0 50.0 50.0 55.0 60.0 _ _</data>
+        <data name="ucl" yunit="dBspl" xunit="Hz" xscale="audio">93.9 103.4 105.8 108.1 110.1 111.9 112.0 111.6 112.8 114.3 _ _</data>
+    </test>
+    <test name="counseling" side="left"/>
+    <test name="counseling" side="right"/>
+    <test name="ig" transducer="headphone"/>
+    <test name="ig" side="left" HI_Type="bte" reservegain="10db" method="none" fig6_level="65"/>
+    <test name="ig" side="right" HI_Type="bte" reservegain="10db" method="none" fig6_level="65"/>
+    <test name="hls" side="left" loss="fullloss"/>
+    <test name="hls" side="right" loss="fullloss"/>
+    <test name="directional"/>
+    <test name="directional" side="left"/>
+    <test name="directional" side="right"/>
+    <test name="remdirectional" side="left"/>
+    <test name="remdirectional" side="right"/>
+    <test name="distortion" side="left"/>
+    <test name="distortion" side="right"/>
+    <test name="multicurve" side="left"/>
+    <test name="multicurve" side="right"/>
+    <test name="hitfeedback" side="left"/>
+    <test name="hitfeedback" side="right"/>
+    <test name="remfeedback" side="left"/>
+    <test name="remfeedback" side="right"/>
+    <test name="hitnoise"/>
+    <test name="hitnoise" side="left"/>
+    <test name="hitnoise" side="right"/>
+    <test name="remnoise"/>
+    <test name="remnoise" side="left"/>
+    <test name="remnoise" side="right"/>
+    <test name="ansi" ansiVersion="S3.22-2009"/>
+    <test name="agc" side="left" avgrtpgainlevel="60dB">
+        <data name="hfa" unit="Hz" internal="hfa">1000 1600 2500</data>
+        <data name="distFreqLo" unit="Hz" internal="distFreqLo">500</data>
+        <data name="distFreqMed" unit="Hz" internal="distFreqMed">800</data>
+        <data name="distFreqHi" unit="Hz" internal="distFreqHi">1600</data>
+    </test>
+    <test name="agc" side="right" avgrtpgainlevel="60dB">
+        <data name="hfa" unit="Hz" internal="hfa">1000 1600 2500</data>
+        <data name="distFreqLo" unit="Hz" internal="distFreqLo">500</data>
+        <data name="distFreqMed" unit="Hz" internal="distFreqMed">800</data>
+        <data name="distFreqHi" unit="Hz" internal="distFreqHi">1600</data>
+    </test>
+    <test name="linear" side="left" avgrtpgainlevel="60dB">
+        <data name="hfa" unit="Hz" internal="hfa">1000 1600 2500</data>
+        <data name="distFreqLo" unit="Hz" internal="distFreqLo">500</data>
+        <data name="distFreqMed" unit="Hz" internal="distFreqMed">800</data>
+        <data name="distFreqHi" unit="Hz" internal="distFreqHi">1600</data>
+    </test>
+    <test name="linear" side="right" avgrtpgainlevel="60dB">
+        <data name="hfa" unit="Hz" internal="hfa">1000 1600 2500</data>
+        <data name="distFreqLo" unit="Hz" internal="distFreqLo">500</data>
+        <data name="distFreqMed" unit="Hz" internal="distFreqMed">800</data>
+        <data name="distFreqHi" unit="Hz" internal="distFreqHi">1600</data>
+    </test>
+    <test name="io"/>
+    <test name="battery" type="zincair13" hrs_per_day="12"/>
+    <test name="telecoil" side="left" stimulus="swept">
+        <data name="hfa" unit="Hz" internal="hfa">1000 1600 2500</data>
+    </test>
+    <test name="telecoil" side="right" stimulus="swept">
+        <data name="hfa" unit="Hz" internal="hfa">1000 1600 2500</data>
+    </test>
+    <test name="hatmanual"/>
+    <test name="hatmanual" side="left"/>
+    <test name="hatmanual" side="right"/>
+    <test name="remmanual"/>
+    <test name="remmanual" side="left"/>
+    <test name="remmanual" side="right"/>
+    <test name="occlusion" side="left"/>
+    <test name="occlusion" side="right"/>
+    <test name="dspcontrol"/>
+    <test name="battery"/>
+    <test name="hat" interval="weekly"/>
+    <test name="hat" side="left">
+        <data name="hatcal" side="left" yunit="dBspl" xunit="Hz" xscale="12th">16.1 16.3 16.5 16.6 17.0 17.1 17.3 17.5 17.6 17.8 18.0 18.1 18.2 18.2 18.2 18.2 18.2 18.2 18.3 18.4 18.4 18.6 18.5 18.7 18.7 18.9 18.9 18.9 19.0 19.0 18.9 19.1 19.2 19.2 19.2 19.3 19.1 19.4 19.2 19.2 19.5 19.4 19.5 19.5 19.4 19.4 19.5 19.5 19.5 19.6 19.5 19.5 19.6 19.6 19.6 19.5 19.6 19.6 19.5 19.6 19.6 19.6 19.8 20.0 19.8 19.8 20.2 20.4 20.2 20.5 20.0 19.0 18.2</data>
+    </test>
+    <test name="hat" side="right">
+        <data name="hatcal" side="right" yunit="dBspl" xunit="Hz" xscale="12th">16.6 16.9 17.1 17.3 17.7 17.7 17.9 18.0 18.2 18.4 18.4 18.5 18.8 18.8 18.9 18.9 19.0 19.1 19.2 19.3 19.4 19.3 19.4 19.6 19.6 19.7 19.7 19.8 20.0 20.0 19.9 19.9 20.0 20.1 20.1 20.2 20.3 20.3 20.2 20.3 20.3 20.3 20.4 20.5 20.4 20.3 20.3 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.3 20.2 20.1 20.0 20.0 19.9 19.8 20.1 20.5 20.3 19.9 19.9 20.0 20.0 20.7 20.8 19.5 17.8</data>
+    </test>
+    <test name="rem" interval="weekly"/>
+    <test name="rem" side="right">
+        <data name="remcal" side="right" yunit="dBspl" xunit="Hz" xscale="12th">1.8 1.9 2.0 2.4 2.5 2.9 3.0 3.3 3.4 3.4 4.0 3.7 3.7 3.7 3.5 3.4 3.3 2.9 2.8 2.5 2.2 1.8 1.5 1.4 1.1 0.8 0.6 0.6 0.5 0.6 0.7 0.9 1.2 1.6 2.3 3.1 3.9 4.5 5.0 4.1 3.3 2.5 1.6 0.8 -0.2 -0.3 -0.1 0.5 1.3 2.5 2.7 2.2 0.7 -1.1 -1.8 -1.5 -1.0 -0.1 -1.2 -2.3 -3.7 -3.2 -1.8 -0.8 -1.8 -2.3 -1.3 -0.7 -1.7 -1.5 -0.2 0.5 1.2</data>
+    </test>
+    <test name="rem" side="left">
+        <data name="remcal" side="left" yunit="dBspl" xunit="Hz" xscale="12th">1.2 1.4 1.5 1.7 1.7 2.1 2.2 2.4 2.4 2.5 2.6 2.7 2.7 2.8 2.6 2.5 2.3 2.0 1.8 1.5 1.2 0.8 0.5 0.3 0.1 -0.2 -0.4 -0.5 -0.5 -0.6 -0.5 -0.2 0.2 0.7 1.3 2.0 2.8 3.4 3.7 3.0 2.1 1.5 0.6 -0.2 -1.4 -1.3 -1.2 -0.8 0.2 1.4 1.7 1.3 -0.2 -1.8 -2.8 -2.6 -2.1 -1.4 -1.9 -3.3 -3.8 -5.0 -3.3 -2.3 -2.8 -3.1 -3.0 -1.6 -2.4 -2.6 -1.0 0.2 1.2</data>
+    </test>
+    <test name="headphone" side="left"/>
+    <test name="headphone" side="right"/>
+    <test name="recd" interval="weekly" coupler_type="awcd"/>
+</session>
+
